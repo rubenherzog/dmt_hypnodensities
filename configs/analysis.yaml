@@ -1,0 +1,52 @@
+data:
+  raw_dir: "/media/rherzoga/T7 Touch/DMTx/Clean"
+  output_dir: "outputs"
+  electrode_mapping: "configs/egi257_to_1020_mapping.csv"
+  # Notebook policy: D1 for placebo; D5 for DMT when available, otherwise highest D-index.
+  file_selection_policy: "prefer_d5"
+
+signal:
+  sampling_frequency: 500.0
+  epoch_duration_seconds: 30.0
+
+segmentation:
+  # Context continuity only. Epochs and filters never cross a missing sample.
+  gap_tolerance_seconds: 90.0
+
+experimental_windows:
+  before: [480.0, 840.0]
+  after: [840.0, 2640.0]
+  late: [2640.0, 3540.0]
+
+compute:
+  # Decisión explícita para el análisis principal; no se seleccionará CUDA.
+  device: "cpu"
+
+staging:
+  gssc:
+    enabled: true
+    min_epochs: 1
+  yasa:
+    enabled: true
+    # YASA no admite un bloque aislado de una época; desde 2 épocas sí se ejecuta.
+    # Los 5 minutos que recomienda la librería no son un requisito técnico.
+    min_epochs: 2
+  sleepfm:
+    enabled: true
+    min_epochs: 1
+    repository: ".external/sleepfm-clinical"
+    # Sin channel_sets: mismo análisis monoelectrodo que GSSC/YASA para cada canal.
+    # Opcionalmente pueden declararse inputs multicanal en otro run independiente.
+    # channel_sets:
+    #   - [E6]
+    #   - [E6, E8, Cz]
+
+features:
+  spectrum: true
+  bandpower: true
+  specparam: true
+  catch22: true
+  yasa_features: true
+
+parallel:
+  n_jobs: -1

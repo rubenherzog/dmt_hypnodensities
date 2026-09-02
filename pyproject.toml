@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dmt-hypnodensities"
+version = "0.1.0"
+description = "Block-based hypnodensity and EEG feature extraction for the DMT continuous-infusion study."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "h5py>=3.10",
+    "joblib>=1.3",
+    "numpy>=1.25",
+    "pandas>=2.1",
+    "pyarrow>=14",
+    "PyYAML>=6",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+features = [
+    "mne>=1.6",
+    "pycatch22",
+    "scipy>=1.11",
+    "specparam",
+    "yasa>=0.7,<0.8",
+]
+yasa = ["yasa>=0.7,<0.8"]
+# PyPI's 0.0.9 omits the probability output present in the official repository
+# under the same version number. Pin the source revision used for hypnodensities.
+gssc = [
+    "gssc @ https://github.com/jshanna100/gssc/archive/2da29b0715242f3a76b0daab2ba7d593a91eb7f8.zip",
+]
+sleepfm = [
+    "einops>=0.7",
+    "loguru>=0.7",
+    "scipy>=1.11",
+    "torch>=2.0",
+]
+stats = ["scipy>=1.11", "statsmodels>=0.14"]
+plots = ["matplotlib>=3.8", "seaborn>=0.13"]
+dev = ["pytest>=8", "ruff>=0.9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+.external/
+
+# Raw EEG and model artifacts never belong in this repository.
+*.mat
+*.edf
+*.fif
+*.npy
+*.npz
+*.pt
+*.pth
+*.h5
+*.hdf5
+
+# Derived run outputs are reproducible and kept outside version control.
+outputs/*
+!outputs/.gitkeep
