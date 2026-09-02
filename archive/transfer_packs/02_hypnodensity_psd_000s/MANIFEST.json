@@ -1,0 +1,380 @@
+{
+  "created_at_utc": "2026-09-02T16:12:39.486745+00:00",
+  "source_run": "gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1",
+  "notebook": "notebooks/02_hypnodensity_analysis.ipynb",
+  "n_recordings": 36,
+  "included_data": {
+    "hypnodensities": 36,
+    "spectra_psd": 36
+  },
+  "excluded_data": [
+    "features",
+    "blocks",
+    "staging_qc",
+    "batch_summary",
+    "file_selection",
+    "raw EEG"
+  ],
+  "files": [
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P07D1_inner_hypnodensities.parquet",
+      "bytes": 193178,
+      "sha256": "dab0a046b460f7e4bdac2e89aa2271bdc7248d385b2f70c085465f95f0ce4a2d"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P07D5_inner_hypnodensities.parquet",
+      "bytes": 155091,
+      "sha256": "329929d7776739fdbcdf9f0e37bec1b36275c167d3aa75d5147a1f56fa313b3c"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P08D1_inner_hypnodensities.parquet",
+      "bytes": 216342,
+      "sha256": "2e17f71a0a04bf4935d609b808f22370ed5b85414ab80a83fbc7155bb66ef71f"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P08D5_inner_hypnodensities.parquet",
+      "bytes": 140834,
+      "sha256": "83a9c8bd6a3db778e6e0554e1188af11637fae0f6105349eccece6f2b8e49469"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P09D1_inner_hypnodensities.parquet",
+      "bytes": 277286,
+      "sha256": "f25cf2cb515491a4219f1377708fd0041bf2b748cfadacc943d3bedbf3709961"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P09D5_inner_hypnodensities.parquet",
+      "bytes": 157804,
+      "sha256": "004fccf14909eb556fd5d74daaa4c082e1394e06b7c8d590683d72e2a4a275ef"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P10D1_inner_hypnodensities.parquet",
+      "bytes": 261532,
+      "sha256": "0536170439a8825ebc33fb03dc8e83138dc6c782b13ed8fd3755c3c14e1dcd36"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P10D5_inner_hypnodensities.parquet",
+      "bytes": 236677,
+      "sha256": "fd22942ba625e0ad502fdc4e88d620fe22be5d23698f33b8d8e5e7907ceaca60"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P11D1_inner_hypnodensities.parquet",
+      "bytes": 223791,
+      "sha256": "cc6240aa52e1a84db59fec737b1de863e9054c435ecb7b747a7cb93c56c4ab3e"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P11D5_inner_hypnodensities.parquet",
+      "bytes": 52882,
+      "sha256": "1f77f41861170180690b30f90a7e190316b8b8f391b32c216b160412ec76cc65"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P12D1_inner_hypnodensities.parquet",
+      "bytes": 200675,
+      "sha256": "5bddda053e6d47ac1c26e6516b59993e82c7c2302f05d6b045a2d0e7cb7678b0"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P12D2_inner_hypnodensities.parquet",
+      "bytes": 37577,
+      "sha256": "788426a572c5a5a304d0b755648de335309033dcd5bf723893f2425e37a772e0"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P13D1_inner_hypnodensities.parquet",
+      "bytes": 224621,
+      "sha256": "2a99cfa48a87a06d0a326f4188dbf3cf9c2a929a78a5259e830e35b8d665986f"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P13D2_inner_hypnodensities.parquet",
+      "bytes": 81555,
+      "sha256": "fe382290554830f22ebbd85b80066b4e53c2f9f19535bd06901f49fd48c3dbb6"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P14D1_inner_hypnodensities.parquet",
+      "bytes": 190529,
+      "sha256": "fcf1061703036439dd88a57f372a2a0400cba7c0ac5bd383d433de15e6b2d394"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P14D2_inner_hypnodensities.parquet",
+      "bytes": 88981,
+      "sha256": "b28acd1841882238141e9ed0e0f76456c81ea60cb092fbcebc56e437397e4d1e"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P15D1_inner_hypnodensities.parquet",
+      "bytes": 262226,
+      "sha256": "b2d34aa7c53801626983902c7e562507e25b79b2ed6110263baf335c29314db8"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P15D2_inner_hypnodensities.parquet",
+      "bytes": 149240,
+      "sha256": "5f96fe3e5af9679726183c901fcbb9f5fbd193ec8ad0c4fcba13b67943226788"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P17D1_inner_hypnodensities.parquet",
+      "bytes": 255012,
+      "sha256": "a03c5cbd03dccdfac3a6086722adaf1881c76127fc700a7d1411ff1e9a32020a"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P17D2_inner_hypnodensities.parquet",
+      "bytes": 232487,
+      "sha256": "4e002c26ad17daab24b1a3e1e10ec55c37b4dee33c7e9fc555faa75f971c93be"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P18D1_inner_hypnodensities.parquet",
+      "bytes": 253768,
+      "sha256": "59b36903839fe7eb16d2fdc71bec63ecff6a2b82a361c132149d8e1a65ccac87"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P18D2_inner_hypnodensities.parquet",
+      "bytes": 135315,
+      "sha256": "312362a1fc408b8028c002855f54ea152be75e9d25409f06d2d506a67d071d6c"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P19D1_inner_hypnodensities.parquet",
+      "bytes": 343554,
+      "sha256": "5cfdc6b8f3ca05b6fe73dbbe209765e03813420924c30d5a251aab58f2a1226c"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P19D2_inner_hypnodensities.parquet",
+      "bytes": 171082,
+      "sha256": "5dae2fdba1c81232d2074c8ae94d4adf32142cc8bf1de30a6741e94ef928afd4"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P21D1_inner_hypnodensities.parquet",
+      "bytes": 207336,
+      "sha256": "60ba84deef6e1753b3297de39c19102c70615f4b0451f6b312ab49bc1bead8db"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P21D2_inner_hypnodensities.parquet",
+      "bytes": 144947,
+      "sha256": "1f42b7b527d7820a086d4ac01002965a591545e0e8d4a8ee3e51c72ce4d057dc"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P22D1_inner_hypnodensities.parquet",
+      "bytes": 250121,
+      "sha256": "f4bec0109ce7fbf50751df163a2c66b34f6cd5c04fdcf46e1810a362845708a8"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P22D2_inner_hypnodensities.parquet",
+      "bytes": 169354,
+      "sha256": "e3d5d944fe5095970f5853b5937d2720a95a77a956228dd529051f6ddb61f4f5"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P23D1_inner_hypnodensities.parquet",
+      "bytes": 196546,
+      "sha256": "04e876b4161ae74d6852d5ef5e6441077055df573c1bd5854e3c681d9fe4841a"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P23D2_inner_hypnodensities.parquet",
+      "bytes": 156002,
+      "sha256": "af8ce43002ac84402004507adbba10c9a0ef181dd58d90a0e11cf4590efc7a5a"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P24D1_inner_hypnodensities.parquet",
+      "bytes": 119811,
+      "sha256": "bc3c72bedc9dcd8cd85eef26a04a393034c5927cff17ac5282efbd0ae2a8e78d"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P24D2_inner_hypnodensities.parquet",
+      "bytes": 137444,
+      "sha256": "9741e7fee20d76929cab98d6d14b4a5a27c225ac55138309cd0d329054df3ad9"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P26D1_inner_hypnodensities.parquet",
+      "bytes": 195310,
+      "sha256": "5bf5aad39aea3fa3887547da21019c7cf9d603cbe58fe9fae5555c7a655e6ba6"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P26D2_inner_hypnodensities.parquet",
+      "bytes": 121008,
+      "sha256": "910f9d0a71e6054bb67a52f5d5a97e72d73b8a854372c4f397f893153481edca"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P28D1_inner_hypnodensities.parquet",
+      "bytes": 115476,
+      "sha256": "6a167efd448210cd36d844e9b4850ef91856754ae2f068b41e119be6b5bc8428"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P28D2_inner_hypnodensities.parquet",
+      "bytes": 103213,
+      "sha256": "580f3f2c56764c5426e390f5f301d904001d362a32e5f7d1afb711c4a3774833"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P07D1_inner_spectra.parquet",
+      "bytes": 8872343,
+      "sha256": "e4e538d9c6165801d7607960bc626006418d62b1884789e54e704156631fbab3"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P07D5_inner_spectra.parquet",
+      "bytes": 6577277,
+      "sha256": "0c31430ac65e271f7531887f6093bd04679e4475c4cd5294c7e7d696ccf03895"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P08D1_inner_spectra.parquet",
+      "bytes": 9985898,
+      "sha256": "7a187ca5c2246d49f6c4ae3b47ff137afbbc7e385df7101737a633342a45dc85"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P08D5_inner_spectra.parquet",
+      "bytes": 7658461,
+      "sha256": "f9cee088f68b23a1248b981395e129014507fa4ec164adccd2272ecdc304e2fe"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P09D1_inner_spectra.parquet",
+      "bytes": 12307810,
+      "sha256": "16e0116b9ed3b253da7aa124558a84c99a3b43b3188d6949e126a7cca7323523"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P09D5_inner_spectra.parquet",
+      "bytes": 7488328,
+      "sha256": "12d9a182ed00817c8d1ba283736191f06215b7418d6d203e87f78a6655d3b06b"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P10D1_inner_spectra.parquet",
+      "bytes": 11421271,
+      "sha256": "6b09bddaa9d020587e5c8af80672eb099b24f54f44f287187162a156f728770f"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P10D5_inner_spectra.parquet",
+      "bytes": 9971934,
+      "sha256": "bfbbacac489f4ea107124fff6b932eb8c5c8ff5691f11e77222c341e86f81a09"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P11D1_inner_spectra.parquet",
+      "bytes": 9835556,
+      "sha256": "68fff78cb1240f215f1aaabb034afd0399fbcbfa61779d8b10d0657474ad2828"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P11D5_inner_spectra.parquet",
+      "bytes": 2744779,
+      "sha256": "196a90420c1283c42cf2bd2c023830e91ec96274e7569e5374623c0bccaa8051"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P12D1_inner_spectra.parquet",
+      "bytes": 9190845,
+      "sha256": "08eaaf6e0bc27acd869e804b6134b5dd9b2e8242eeda0043f6552ed41a978b29"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P12D2_inner_spectra.parquet",
+      "bytes": 1755410,
+      "sha256": "5a23925d6b56dd1f48b8377d060cfdccc5ed6df9d72df04375d72db7c9280177"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P13D1_inner_spectra.parquet",
+      "bytes": 10755119,
+      "sha256": "9f1bf1ac12dee4bfc8cf62e8b3832952860fd821bfff6f99e8229258a11e0e42"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P13D2_inner_spectra.parquet",
+      "bytes": 3978601,
+      "sha256": "b94e80c6e711ce2d5383580be1a0c57e43bf3c711d05eaf309fda285ac28efab"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P14D1_inner_spectra.parquet",
+      "bytes": 9043577,
+      "sha256": "2438a131745ebfb38dc638e9534cc5f69d4c2ca6e6c9bd11d5bd716a004c606f"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P14D2_inner_spectra.parquet",
+      "bytes": 3976632,
+      "sha256": "637e2be8ced1ee89e178a8ccf07fc0907164c002e4ecdcdb6599b0bfd69ef831"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P15D1_inner_spectra.parquet",
+      "bytes": 11643113,
+      "sha256": "1db5dea1331f0ed23ac81d5b0e1ec02fb1994db1533b97eebbe38643e6516196"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P15D2_inner_spectra.parquet",
+      "bytes": 7652427,
+      "sha256": "1acbdcc4deed5f477c1218df7d217bad648b9000f9e192e25d90f4374fd06861"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P17D1_inner_spectra.parquet",
+      "bytes": 11631836,
+      "sha256": "cbe213634cb6ecdbb4779ac7fd05aade198cf64f62c866a00dddae57cb36aed8"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P17D2_inner_spectra.parquet",
+      "bytes": 10577471,
+      "sha256": "6bbce283001c745ad53ac58ad88796c88b8684dbc74d1c7cfbd6d315f014f4b6"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P18D1_inner_spectra.parquet",
+      "bytes": 12542928,
+      "sha256": "133295face35ac7c3ebcb0f9b1a195e50610b1ddb071e49c860af9642e307fed"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P18D2_inner_spectra.parquet",
+      "bytes": 5930040,
+      "sha256": "b8d4f09ccd161018f535516c0bd266491e74f044d81225f3dd9c491980222a68"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P19D1_inner_spectra.parquet",
+      "bytes": 14889261,
+      "sha256": "d50d090cb690126ed328f067027efdbd26f92ab072cefef333ceb4153b84fcc2"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P19D2_inner_spectra.parquet",
+      "bytes": 8427116,
+      "sha256": "cfdcab359aea8219b7866f6e954342a06c61a5a3d30c44d058589128d319d8c0"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P21D1_inner_spectra.parquet",
+      "bytes": 10286588,
+      "sha256": "612a839d042ebf9863009a882f2980deb5648ecd8b8e9adcd82b117a9138a6ca"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P21D2_inner_spectra.parquet",
+      "bytes": 7479885,
+      "sha256": "90fc76ddf1e07bb2f374cf2b257f3e45c62c2e26eba22a4d74c99ba3f221875d"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P22D1_inner_spectra.parquet",
+      "bytes": 11228726,
+      "sha256": "9b9bd0faacdf5281bd838403901d61ac97b68c4e749a8ebd2d7662937cacbd15"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P22D2_inner_spectra.parquet",
+      "bytes": 8283009,
+      "sha256": "9faaab5f670a17e5cb47d69d7f79723a6f6d83216853afe125971de2065fa193"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P23D1_inner_spectra.parquet",
+      "bytes": 9818765,
+      "sha256": "4b0002da44394c6a4eede7bc53b74796603275b8de0dcc8c8fa71ee402a33085"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P23D2_inner_spectra.parquet",
+      "bytes": 8111815,
+      "sha256": "143d618b390ca213ca66433aec8d0aac28adb7c4ca785bd6307f1d59b1a45c31"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P24D1_inner_spectra.parquet",
+      "bytes": 5928235,
+      "sha256": "140de6e5f9c763975ededefb81aadfde2330bb42199736d38f983e8537ae5277"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P24D2_inner_spectra.parquet",
+      "bytes": 5928940,
+      "sha256": "b14bc5b515c8f054fc29e867e899a10885bc81c2508f9428c9715420b0d5bf5c"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P26D1_inner_spectra.parquet",
+      "bytes": 9202804,
+      "sha256": "abe0502911f1d2681984b68b36cc83ee1594304880ace6e5ab53403da4ef7b5c"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P26D2_inner_spectra.parquet",
+      "bytes": 5531186,
+      "sha256": "3cf27a0e8b6bb7b0f27e101cad5360c9caf640f06b50327351bbebae23912d9d"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P28D1_inner_spectra.parquet",
+      "bytes": 5370648,
+      "sha256": "1d6fc8ec9558dd51c020d278a4de1db440f26a5f9348276e3d17dee5bd863102"
+    },
+    {
+      "path": "outputs/gap_sensitivity_000s_gssc_yasa_sleepfm_cpu_v1/recordings/DMTCI_P28D2_inner_spectra.parquet",
+      "bytes": 4753783,
+      "sha256": "b5a1a46aacb7097b070feab38ce5a007c2b4efc4ab12440247dc60e3a2cab70b"
+    }
+  ]
+}
