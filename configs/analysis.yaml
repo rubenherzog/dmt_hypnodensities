@@ -19,7 +19,7 @@ experimental_windows:
   late: [2640.0, 3540.0]
 
 compute:
-  # Decisión explícita para el análisis principal; no se seleccionará CUDA.
+  # Use CPU explicitly for reproducible local execution.
   device: "cpu"
 
 staging:
@@ -28,15 +28,15 @@ staging:
     min_epochs: 1
   yasa:
     enabled: true
-    # YASA no admite un bloque aislado de una época; desde 2 épocas sí se ejecuta.
-    # Los 5 minutos que recomienda la librería no son un requisito técnico.
+    # YASA requires at least two epochs for this analysis.
+    # The library's five-minute recommendation is not a technical requirement.
     min_epochs: 2
   sleepfm:
     enabled: true
     min_epochs: 1
     repository: ".external/sleepfm-clinical"
-    # Sin channel_sets: mismo análisis monoelectrodo que GSSC/YASA para cada canal.
-    # Opcionalmente pueden declararse inputs multicanal en otro run independiente.
+    # Without channel_sets, run the same single-channel analysis as GSSC/YASA.
+    # Multichannel inputs can be declared when required by the analysis.
     # channel_sets:
     #   - [E6]
     #   - [E6, E8, Cz]

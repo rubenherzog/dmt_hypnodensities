@@ -90,8 +90,8 @@ def process_recording(
     block_rows = []
     block_iterator = tqdm(
         blocks,
-        desc=f"{recording.recording_id} · bloques",
-        unit="bloque",
+        desc=f"{recording.recording_id} · blocks",
+        unit="block",
         leave=False,
         disable=not show_progress,
     )

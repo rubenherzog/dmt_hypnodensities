@@ -212,8 +212,8 @@ def run_batch(
         progress = tqdm(
             generated,
             total=len(pending),
-            desc="Grabaciones",
-            unit="grabación",
+            desc="Recordings",
+            unit="recording",
             disable=not show_progress,
         )
         for row in progress:
