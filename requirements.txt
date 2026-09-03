@@ -1,0 +1,5 @@
+# Complete local environment for the pipeline, analysis notebooks, tests, and linting.
+# Project dependencies and version constraints are maintained in pyproject.toml.
+-e .[features,gssc,sleepfm,stats,plots,dev]
+jupyterlab>=4
+ipykernel>=6

@@ -15,6 +15,27 @@
 
 The core package supports Python 3.10 or newer.
 
+For the complete local environment used by the notebooks and pipeline, create and
+activate a virtual environment, then install the committed requirements file:
+
+```bash
+python -m venv .venv
+# Windows PowerShell:
+.\.venv\Scripts\Activate.ps1
+# macOS/Linux:
+# source .venv/bin/activate
+
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m ipykernel install --user --name dmt-hypnodensities --display-name "Python (dmt-hypnodensities)"
+```
+
+In JupyterLab, select the **Python (dmt-hypnodensities)** kernel before running a
+notebook. The `requirements.txt` file installs this project in editable mode and
+gets its package constraints from `pyproject.toml`.
+
+For a minimal core-only installation instead:
+
 ```bash
 python -m pip install -e .
 ```
