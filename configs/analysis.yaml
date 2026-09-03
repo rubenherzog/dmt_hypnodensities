@@ -1,7 +1,7 @@
 data:
-  raw_dir: "/media/rherzoga/T7 Touch/DMTx/Clean"
-  output_dir: "outputs"
-  electrode_mapping: "configs/egi257_to_1020_mapping.csv"
+  raw_dir: "D:/DMT_data/data/Clean"
+  output_dir: "C:/Users/Bruna/Documents/Cogmaster/M1/S2/dmt_hypnodensities_outputs"
+  electrode_mapping: "D:/DMT_data/egi257_to_1020_mapping.csv"
   # Notebook policy: D1 for placebo; D5 for DMT when available, otherwise highest D-index.
   file_selection_policy: "prefer_d5"
 
@@ -31,6 +31,7 @@ staging:
     # YASA requires at least two epochs for this analysis.
     # The library's five-minute recommendation is not a technical requirement.
     min_epochs: 2
+
   sleepfm:
     enabled: true
     min_epochs: 1
