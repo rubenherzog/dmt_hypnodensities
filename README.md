@@ -67,13 +67,22 @@ config = load_config("configs/analysis.yaml")
 summary = run_batch(config)
 ```
 
-The example notebooks cover the main workflow:
+The example notebooks cover the main workflow and are meant to be run in order:
 
 1. `notebooks/01_run_batch.ipynb` runs extraction and persistence.
 2. `notebooks/02_hypnodensity_analysis.ipynb` analyzes staging tables.
 3. `notebooks/03_feature_associations.ipynb` joins features and hypnodensities.
+4. `notebooks/04_gap_tolerance_lme.ipynb` models the gap-tolerance sensitivity sweep.
+5. `notebooks/05_feature_hypnodensity_correlations_v2.ipynb` correlates EEG features with hypnodensities.
+6. `notebooks/06_intensity_entities_postinfusion_lme.ipynb` relates the post-infusion hypnodensity to subjective intensity and entity reports.
+
+Notebook 06 requires the subjective ratings workbook, whose path is set at the
+top of the notebook; the others run from the persisted pipeline outputs alone.
 
 The gap-tolerance sensitivity script is available at `scripts/run_gap_tolerance_sweep.py`.
+
+Superseded notebooks are kept under `archive/` for reference. Notebook 06
+replaces the two separate intensity and entity analyses stored there.
 
 ## Data and outputs
 
